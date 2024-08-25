@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Projeto 2</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="./js/index.js"></script>
+    </head>
+    <body>
+
+        <h2>Cadastre-se</h2>
+
+        <form id="formulario" class="form">
+            <input type="text" name="nome" placeholder="Nome">
+            <input type="password" name="senha" placeholder="Senha">
+            <select name="escolha" id="escolha" required>
+                <option value="M">Masculino</option>
+                <option value="F">Feminino</option>
+                <option value="N">Prefiro não responder</option>
+            </select>
+            <button type="button" class="button" onclick="cadastrar()">Cadastrar</button>
+        </form>
+
+        <div id="mensagem"></div>
+
+    </body>
+</html>
