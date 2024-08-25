@@ -7,9 +7,9 @@ async function cadastrar(){
         return;
     }
 
-    if(!dados.get('senha') < 8 || !dados.get('senha') >= 20)
+    if(dados.get('senha') < 8)
     {
-        alert("Sua senha deve ter no mínimo 8 e no máximo 20 caracteres.");
+        alert("Sua senha deve ter no mínimo 8");
         return;
     }
 
